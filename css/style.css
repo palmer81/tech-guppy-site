@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Robo Sapien Leftalic";
+  src: url(../font/RoboSapienLeftalic-eZGnp.otf);
+}
+.custom {
+  font-family: "Robo Sapien Leftalic", "Trebuchet MS", "Lucida Sans Unicode",
+    "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+nav[aria-label="Navigation Bar"] {
+  display: flex;
+  position: fixed;
+  padding: 0;
+  height: 56px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(92, 90, 104);
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+nav[aria-label="Navigation Bar"] > img {
+  height: 40px;
+}
+main {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  height: 100vh;
+}
+section > header > a {
+  display: none;
+  visibility: hidden;
+}
+aside {
+  background-color: oklch(33.53% 0.0445 257.98);
+}
+section {
+  background-color: oklch(83.98% 0.0439 271.87 / 5.6%);
+  padding: 111px 150px 0 45px;
+  overflow-y: scroll;
+  max-height: 100vh;
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+section::-webkit-scrollbar {
+  display: none;
+}
+nav {
+  padding: 56px 0 0 25px;
+  max-height: 100vh;
+}
+nav > h4 {
+  color: oklch(89% 0.0345 257.98);
+}
+nav > a {
+  height: 100%;
+  display: block;
+  color: oklch(90.58% 0.0445 257.98);
+  text-decoration: none;
+}
+nav > a:hover {
+  color: oklch(100% 0.0045 257.98);
+}
+svg > line {
+  stroke: oklch(8.61% 0 264.93);
+  stroke-width: 8;
+  stroke-linecap: round;
+}

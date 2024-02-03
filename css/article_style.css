@@ -1,0 +1,117 @@
+#toast-container > div {
+  opacity: 1;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+article#body {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 5px;
+  padding: 25px 0px 0px 10px;
+  height: 2250px;
+  align-content: flex-start;
+}
+div.title_header {
+  display: flex;
+  align-items: center;
+}
+img.copy_hyperlink {
+  opacity: 0.6;
+  height: 25px;
+  padding: 5px;
+}
+img.copy_hyperlink:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+img.copy_hyperlink:active {
+  border-radius: 90px;
+  background-color: oklch(86.63% 0.0236 287.76 / 75.96%);
+}
+img.website_link {
+  position: relative;
+  right: 15px;
+  height: 15px;
+  margin: 5px;
+}
+img.dead_link {
+  display: none;
+  visibility: hidden;
+}
+div.dead_link {
+  max-width: 230px;
+  right: 0px;
+  bottom: 0px;
+  margin-top: 10px;
+  padding-bottom: 15px;
+}
+h1 {
+  display: inline-block;
+}
+span#num_websites {
+  align-self: flex-end;
+  margin: 0 0 24px 5px;
+}
+article#body-inline-block {
+  margin: 0;
+  display: inline-block;
+  text-align: left;
+  padding: 25px 0px 0px 10px;
+}
+div#container {
+  overflow-y: clip;
+  width: 270px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  box-sizing: border-box;
+}
+div#container-inline-block {
+  vertical-align: top;
+  display: inline-block;
+  width: 270px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0px 5px 5px 0px;
+  padding: 5px 5px 5px 5px;
+  box-sizing: border-box;
+}
+p {
+  margin: 10px 10px 10px 10px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+p.web_count {
+  margin: 0;
+  color: oklch(67.21% 0.0236 287.76);
+  font-size: xx-small;
+  text-align: left;
+  font-style: italic;
+  font-weight: bold;
+}
+.title {
+  display: inline-block;
+  position: relative;
+  right: 15px;
+  bottom: 15px;
+  margin: 0 0 5px 0;
+  vertical-align: text-top;
+  text-decoration: none;
+  color: oklch(46.73% 0.249 264.27);
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: large;
+  max-width: 200px;
+}
+a.title:hover {
+  color: oklch(46.73% 0.249 287.76);
+}
+div#title_source {
+  font-family: system-ui;
+  opacity: 0.5;
+  font-weight: 700;
+}
